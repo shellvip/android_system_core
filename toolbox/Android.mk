@@ -45,7 +45,7 @@ TOOLS := \
 	vmstat
 
 ifndef TINY_TOOLBOX
-    TOOLS +=
+    TOOLS += \
         cat \
         ln \
         ls \
